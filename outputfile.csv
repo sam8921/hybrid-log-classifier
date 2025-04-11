@@ -1,0 +1,11 @@
+source,log_message,target_label
+SecuritySystem,GET /api/v1/users successful response 200,Security Alert
+WebServer,POST /api/v1/login failed with error 403,Security Alert
+DatabaseSystem,Connection to database xyz timed out,Unclassified
+SecuritySystem,User 7890 successfully updated profile,Security Alert
+UserManagement,Suspicious login attempt blocked for user 1122,Security Alert
+DatabaseSystem,Database backup completed successfully,Error
+UserManagement,Error writing to table 'payments',Unclassified
+DatabaseSystem,Password reset request for user 3344,Security Alert
+DatabaseSystem,Failed to serialize object during POST /api/v1/cart,Unclassified
+UserManagement,Security alert: Possible SQL injection detected,Security Alert
